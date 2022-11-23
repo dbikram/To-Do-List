@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+*{
+    margin:0%;
+    padding: 0%;
+    background-color: rgb(248, 241, 231);
+}
+#title{
+    width: 100%;
+    padding: 1vmax;
+    text-align: center;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    /* border: 1px solid rgb(22, 22, 22); */
+    min-height: 92.3vh;
+    box-sizing: border-box;
+
+}
+form{
+    display: flex;
+    flex-direction: column; 
+}
+#task,textarea,button{
+    padding: 20px;
+    margin: 0.5vmax;
+    font-size: 30px;
+    outline: none;
+    /* border: 1px solid rgba(66, 65, 65, 0.473); */
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+#addBtn{
+    width: 40%;
+    margin: 1.5vmax auto;
+    padding: 1vmax;
+    color:white;
+    background-color: black;
+    border-radius: 5.5vmax;
+    transition: all 0.5s;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+}
+#addBtn:hover{
+    color:white;
+    background-color: rgb(49, 48, 48);
+}
+
+.alltasks{
+    display: flex;
+    flex-direction: row;
+    /* align-self: center; */
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    
+    /* border: 1px solid red; */
+}
+.eachbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    /* border: 1px solid black; */
+    width: 100%;
+    
+    margin: 1vmax auto;
+    padding: 1vmax;
+    height: 100%;
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    
+}
+#para{
+    width: 90%;
+   
+
+
+}
+#desc{
+    width: 90%;
+    
+    
+}
+#para,#desc{
+    /* border: 1px solid rgb(221, 19, 19); */
+
+    padding: 1.5vmax;
+    margin: 1vmax auto;
+    background-color: rgb(235, 235, 222);
+    height: 100%;
+}
+#removeBtn{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1vmax auto;
+    width: 94%;
+    height: 2vmax;
+    /* border-radius: 50%; */
+    background-color: rgb(212, 11, 51);
+    background-color: rgb(48, 48, 48);
+    color:wheat;
+    border: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    /* border: 10px solid white; */
+    box-sizing: border-box;
+}
+#removeBtn:hover{
+    background-color: rgb(212, 11, 51);
+    color: aliceblue;
+}
+.container>h1{
+    text-align: center;
+    font: 20px;
+    font-family: 'Mukta', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.603);
+}
